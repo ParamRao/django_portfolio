@@ -1,10 +1,69 @@
+{% load static %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
+	<title>Parameshwar Rao</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
-<h1>Home Page!</h1>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card card-body h-100">
+					<h5 class="text-center">Hi, I'm Parameshwar Rao</h5>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/profile_pic.jpg' %}" class="rounded-circle" >
+					<hr>
+					<p>Senior Software Engineer || Pythonista --> Pythoneer</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me</h4>
+					<hr>
+					<p>Overall, 6+ years of experience in Python language with a demonstrated history of working in the information technology and services industry.</p>
+					<p>Skilled in Python with Django and Flask web frameworks. Hands on experience in development of in-house automation framework.</p>
+					<p>Blend knowledge of R&D and software development.</p>
+					<p>Comprehensive grasp on end to end software development life cycle including requirements gathering, design, coding, testing, debugging, and maintenance.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Education</h5>
+					<hr>
+					<ul class="social-links">
+						<li><h6>Masters of Technology</h6></li>
+						<p class="font-weight-light">SET, Jain University, Bengaluru</p>
+						<li><h6>Bachelor of Engineering</h6></li>
+						<p class="font-weight-light">Rajarajeshwari college of Engineering, Bengaluru</p>
+					</ul>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Skillset</h5>
+					<hr>
+					<p>Python, Django, Flask, HTML, CSS, JavaScript, Jquery, MySQL, JIRA, GIT, Perforce, Docker and Kubernetes.</p>
+					<p>PS: Working on MongoDB and AWS.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
 </body>
 </html>
